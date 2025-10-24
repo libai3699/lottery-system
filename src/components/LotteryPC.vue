@@ -265,13 +265,13 @@ export default {
 .prize-item.thanks-prize .prize-name {
   font-size: 1.1vw;
   color: #1e293b;
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .prize-item.thanks-prize .prize-level {
   font-size: 1.1vw;
   color: #1e293b;
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .prize-item.thanks-prize .prize-value {
@@ -366,7 +366,7 @@ export default {
   top: 50%;
   left: 53%;
   transform: translateX(-50%);
-  width: 70%;
+  width: 60%;
   padding: 2vh 2vw;
   font-size: 1.3vw;
   border: 0.2vw solid #cbd5e1;

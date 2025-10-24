@@ -244,21 +244,20 @@ export default {
     font-size: 2.8vw;
     font-weight: bold;
     color: #1e293b;
-    margin-bottom: 0.2vh;
 }
 
 .prize-level {
     font-size: 2.5vw;
     color: #1e293b;
     font-weight: bold;
-    margin-bottom: 0.2vh;
+    margin-bottom: 0.15vh;
 }
 
 .prize-value {
     font-size: 2.6vw;
     font-weight: bold;
     white-space: pre-line;
-    line-height: 1.2;
+    line-height: 0.9;
 }
 
 /* 銘謝惠顧特殊样式 */
