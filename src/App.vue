@@ -4,7 +4,8 @@
     <LotteryPC v-if="!isMobile" ref="lotteryPC" :prizes="allPrizes" @lottery="handleLottery" @show-toast="showToast" />
 
     <!-- 移动端 -->
-    <LotteryMobile v-if="isMobile" ref="lotteryMobile" :prizes="allPrizes" @lottery="handleLottery" @show-toast="showToast" />
+    <LotteryMobile v-if="isMobile" ref="lotteryMobile" :prizes="allPrizes" @lottery="handleLottery"
+      @show-toast="showToast" />
 
     <!-- Toast 提示 -->
     <div v-if="toast.show" class="toast" :class="toast.type">
