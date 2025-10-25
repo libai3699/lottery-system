@@ -157,8 +157,8 @@ export default {
 .lottery-container {
     position: relative;
     width: 100vw;
-    min-height: 130vh;
-    padding: 10vh 0 20vh 0;
+    min-height: 120vh;
+    padding: 10vh 0 0vh 0;
     box-sizing: border-box;
     overflow: visible;
     background-image: url('../assets/mobileImg/BG.png');
