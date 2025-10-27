@@ -157,13 +157,13 @@ export default {
 .lottery-container {
     position: relative;
     width: 100vw;
-    min-height: 120vh;
+    min-height: 100vh;
     padding: 10vh 0 0vh 0;
     box-sizing: border-box;
     overflow: visible;
     background-image: url('../assets/mobileImg/BG.png');
-    background-size: 100% auto;
-    background-position: center top;
+    background-size: 100% 100%;
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -174,9 +174,9 @@ export default {
     position: relative;
     margin: 0 auto;
     z-index: 10;
-    width: 85vw;
+    width: 100vw;
     max-width: 450px;
-    padding-bottom: 14vh;
+    padding-bottom: 5vh;
 }
 
 .lottery-frame-bg {
@@ -188,7 +188,7 @@ export default {
 
 .prizes-grid {
     position: absolute;
-    top: 16%;
+    top: 18.2%;
     left: 50%;
     transform: translateX(-50%);
     display: grid;
@@ -254,14 +254,14 @@ export default {
     font-size: 2.5vw;
     color: #1e293b;
     font-weight: bold;
-    margin-bottom: 0.15vh;
+    margin-bottom: 0.2vh;
 }
 
 .prize-value {
     font-size: 2.6vw;
     font-weight: bold;
     white-space: pre-line;
-    line-height: 1;
+    line-height: 1.5;
 }
 
 /* 銘謝惠顧特殊样式 */
@@ -293,7 +293,7 @@ export default {
 
 .lottery-btn {
     position: absolute;
-    bottom: 20vh;
+    bottom: 11.5vh;
     left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
